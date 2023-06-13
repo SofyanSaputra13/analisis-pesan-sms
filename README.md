@@ -11,6 +11,7 @@ pesan khususnya layanan SMS. Pesan spam terkadang berisi berbagai macam pesan
 berupa promosi, iklan, dan sejenisnya. Namun tak jarang pesan spam juga berisi 
 pesan sejelis tautan berbahaya yang berisi virus, malware, penipuan, dan 
 sejenisnya. 
+
 Tujuan peneliti dalam melakukan penelitian yaitu untuk mengembangkan 
 sistem yang secara otomatis dapat mengklasifikasikan dan memfilter pesan SMS 
 sebagai spam atau non-spam (ham). Sistem yang diusulkan menggunakan 
@@ -18,6 +19,7 @@ Algoritma Multinomial Naive Bayes untuk klasifikasi teks, yang merupakan
 metode dikembangkan dalam NLP (Natural Language Processing). Dataset yang 
 digunakan untuk pelatihan (training) dan pengujian (testing) sistem adalah 
 kumpulan pesan SMS berlabel spam atau ham.
+
 Sistem filter ini dibuat dengan Google Colab dengan bahasa pemrograman 
 Python. Hasil penelitian menunjukkan bahwa Algoritma Multinomial Naïve Bayes
 adalah metode yang efektif untuk penyaringan teks SMS dengan nilai accuracy, 
